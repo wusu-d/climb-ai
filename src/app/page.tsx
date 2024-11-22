@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <main className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Web Scraper UI</h1>
+      <h1 className="text-2xl font-bold mb-4">Climb AI</h1>
       <UrlForm onSubmit={handleUrlSubmit} />
       {isLoading && <p className="mt-4">Loading...</p>}
       {error && <p className="mt-4 text-red-500">{error}</p>}
