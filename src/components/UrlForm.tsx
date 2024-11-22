@@ -19,15 +19,15 @@ export default function UrlForm({ onSubmit }: UrlFormProps) {
         type="url"
         value={url}
         onChange={(e) => setUrl(e.target.value)}
-        placeholder="Enter URL to scrape"
+        placeholder="Enter URL to Map"
         required
-        className="flex-grow p-2 border rounded"
+        className="flex-grow p-2 border rounded bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 focus:border-transparent transition-colors"
       />
       <button
         type="submit"
         className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
       >
-        Scrape
+        Map Site
       </button>
     </form>
   );
